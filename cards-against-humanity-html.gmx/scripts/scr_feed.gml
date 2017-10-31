@@ -13,11 +13,11 @@ switch(type_event) {
         socket = noone;
         break;
         
-    case network_type_data
+    case network_type_data:
         // Handle the data
         var buffer = async_load[? "buffer"];
         buffer_seek(buffer, buffer_seek_start, 0);
-        scr_received packet(buffer);
+        scr_received_packet(buffer);
         break;
         
 }
