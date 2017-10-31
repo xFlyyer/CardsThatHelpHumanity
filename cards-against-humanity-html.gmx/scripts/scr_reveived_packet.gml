@@ -1,0 +1,2 @@
+buffer = argument0;
+
